@@ -5,6 +5,6 @@ public class petshop {
     String nomePet;
 
     public void imprimeInfo(){
-        System.out.println(this.nomeCliente + " - " + this.telefoneCliente + " - " + this.servico + " - " + this.nomePet);
+        System.out.println("Cliente: "+ this.nomeCliente + "\nTelefone: " + this.telefoneCliente + "\nTipo serviço: " + this.servico + "\nNome do Pet: " + this.nomePet);
     }
 }

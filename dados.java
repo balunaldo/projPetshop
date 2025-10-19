@@ -23,7 +23,7 @@ public class dados {
     }
 
     public static void gerarLista(petshop[] listPets){
-        System.out.println("Pets: ");
+        System.out.println("\n\nDados cliente: ");
         if(listPets == null) return;
         for(petshop p : listPets){
             if(p != null){
