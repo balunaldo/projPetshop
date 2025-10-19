@@ -5,7 +5,6 @@ public class dados {
         final int qtdPets = 1;
         Scanner entrada = new Scanner(System.in);
         petshop listPets[] = new petshop[qtdPets];
-
         for(int i = 0; i < qtdPets; i++){
             listPets[i] = new petshop();
             System.out.println("Nome cliente: ");
@@ -19,7 +18,6 @@ public class dados {
             entrada.nextLine();
         }
         entrada.close();
-
         gerarLista(listPets);
         System.out.println("Ganhos totais: R$ " + somarValores(listPets));
     }
@@ -38,7 +36,6 @@ public class dados {
         double total = 0.00;
         double valorTosa = 100.00;
         double valorBanho = 60.00;
-
         if(listPets == null) return total;
         for(petshop p : listPets){
             if(p != null){
